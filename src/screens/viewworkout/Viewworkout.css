@@ -1,0 +1,492 @@
+/* view-workout-main-container start */
+.view-workout-main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    background-color: #ffffff;
+    }
+/* view-workout-main-container end */
+
+/* workout-name-container start */
+    .workout-name-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 95%;
+    }
+/* workout-name-container end */
+
+/* workout-name-header-container start */
+
+    .workout-name-header-container{
+        width: 40% ;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+/* workout-name-header-container end */
+
+/* workout-name-header start */
+
+    .workout-name-header{
+        text-align: left;
+        font-size: 14px;
+        letter-spacing: 0.02px;
+        color: #646D82;
+        font-family: 'Montserrat', sans-serif;
+      
+    }
+/* workout-name-header end */
+   
+/* workout-name-value-header start */
+
+    .workout-name-value-header{
+        text-align: left;
+        font-size: 24px;
+    
+        letter-spacing: 0.02px;
+        color: #229480;
+        font-family: 'Montserrat', sans-serif;
+      
+    }
+/* workout-name-value-header end */
+    
+/* edit-delete-icon-container start */
+
+.edit-delete-icon-container{
+        margin-top: 4%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 6%;
+    }
+/* edit-delete-icon-container end */
+
+/* edit-icon-container start */
+    
+    .edit-icon-container{
+        display: flex;
+        width: 45%;
+        height: 31px;
+       
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+/* edit-icon-container end */
+
+/* edit-icon start */
+
+    .edit-icon{
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    
+    }
+/* edit-icon end */
+    
+/* delete-icon-container start */
+
+.delete-icon-container{
+       
+        display: flex;
+        width: 45%;
+        height: 31px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+/* delete-icon-container end */
+  
+/* delete-icon start */
+
+    .delete-icon{
+        height:80%;
+        width: 100%;
+        object-fit: contain;
+    
+    }
+/* delete-icon end */
+
+/*workout-list-sub-container start */
+
+    .workout-list-sub-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        width: 95%;
+    }
+/*workout-list-sub-container end */
+    
+/*workout-list-container start */
+
+.workout-list-container{
+        margin-top: 3%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+    }
+/*workout-list-container end */
+    
+/*workout-list-item-container start */
+
+.workout-list-item-container{
+        padding-left: 2%;
+        padding-right: 2%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 95%;
+        height: 8vh;
+        background: #229480 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 6px #00000029;
+    border-radius: 8px;
+    opacity: 1;
+    }
+/*workout-list-item-container end */
+    
+/*workout-list-item-container-name-header start */
+
+.workout-list-item-container-name-header{
+        text-align: left;
+        font-size: 20px;
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+/*workout-list-item-container-name-header end */
+    
+/*add-icon start */
+
+.add-icon{
+        font-size: 30px;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+    }
+
+/*add-icon end */
+
+/*list-item-open-container start */
+
+.list-item-open-container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 90%;
+        background-color: #ffffff;
+        padding: 2%;
+    }
+/*list-item-open-container end */
+    
+/*list-item-details-container start */
+
+.list-item-details-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    padding:2% ;
+    }
+/*list-item-details-container end */
+
+/*list-item-info-image-container start */
+.list-item-info-image-container{
+    width: 20%;
+    height: 120px;
+    display: flex;
+}
+/*list-item-info-image-container end */
+    
+/*info-image start */
+.info-image{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+/*info-image end */
+
+/*info-content-container start */
+    
+    .info-content-container{
+        margin-left: 2%;
+        padding:1%;
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+/*info-content-container end */
+    
+/*info-all-details-header-container start */
+.info-all-details-header-container{
+        margin-top: 2%;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+       
+    }
+/*info-all-details-header-container end */
+
+/*reps-header-value-container start */
+.reps-header-value-container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+/*reps-header-value-container end */
+    
+/*bottom-button-container start */
+.bottom-button-container{
+        margin-top: 2%;
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 2%;
+}
+/*bottom-button-container end */
+
+/*bottom-button-container start */
+.attached-container{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+}
+/*bottom-button-container end */
+
+/*video-svg start */
+.video-svg{
+        margin-left: 5%;
+        margin-top: 2%;
+}
+/*video-svg end */
+
+/*total-calories-burn-button start */
+.total-calories-burn-button{
+        width: 30%;
+        height: 7vh;
+        display: flex;
+        background: #313332 0% 0% no-repeat padding-box;
+    border-radius: 32px;
+    opacity: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    }
+/*total-calories-burn-button end */
+
+/*save-btn-container start */
+.save-btn-container{
+        margin-left: 1.5%;
+        width: 10vw;
+        height: 7vh;
+        background: #1D8472 0% 0% no-repeat padding-box;
+        border-radius: 32px;
+        opacity: 1;
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+
+}
+/*save-btn-container end */
+
+/*allcontent-header start */
+.allcontent-header{
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0px;
+    color: #229480;
+    opacity: 1;
+}
+/*allcontent-header end */
+
+/*allcontent-header-title start */
+.allcontent-header-title{
+    width: 100%;
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0px;
+    color: #040404;
+    opacity: 1;
+}
+/*allcontent-header-title end */
+
+/*allcontent-header-value start */
+.allcontent-header-value{
+    width: 100%;
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0px;
+color: #040404;
+opacity: 1;
+
+}
+/*allcontent-header-value end */
+
+/*total-calories-burn-button-header start */
+.total-calories-burn-button-header{
+    
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+/*total-calories-burn-button-header end */
+
+/*total-calories-burn-button-value start */
+.total-calories-burn-button-value{
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+/*total-calories-burn-button-value end */
+
+/*instruction-header start */
+.instruction-header{
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0px;
+    color: #229480;
+    opacity: 1;
+}
+/*instruction-header end */
+
+/*sub-title-instruction-header start */
+.sub-title-instruction-header{
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0px;
+    color: #040404;
+    opacity: 1;
+
+}
+/*sub-title-instruction-header end */
+
+@media screen and (max-width: 950px){
+    
+    .total-calories-burn-button{
+        width: 45%;
+    }
+    
+    .save-btn-container{
+        width: 11%;
+    
+}
+}
+
+@media screen and (max-width: 800px) {
+    .info-all-details-header-container{
+        margin-top: 2%;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start;
+        justify-content: space-between;
+       
+    }
+
+  .reps-header-value-container{
+      width: 100%;
+        flex-direction: row;
+    }
+    
+    
+    
+}
+
+@media screen and (max-width: 700px){
+    
+
+    .total-calories-burn-button{
+        width: 55%;
+    }
+    
+    .save-btn-container{
+        width: 14%;
+    
+}
+}
+
+@media screen and (max-width: 700px){
+    
+
+    .total-calories-burn-button{
+        width: 65%;
+    }
+    
+    .save-btn-container{
+        width: 20%;
+    
+    }
+
+
+}
+
+@media screen and (max-width: 500px){
+    
+
+    .total-calories-burn-button{
+        width: 70%;
+    }
+    
+    .save-btn-container{
+        width: 20%;
+    
+    }
+
+    .save-btn-container{
+    font-size: 14px;
+
+}
+
+.total-calories-burn-button-header{
+    
+    font-size: 12px;
+}
+
+.total-calories-burn-button-value{
+    font-size: 12px;
+}
+
+   
+}

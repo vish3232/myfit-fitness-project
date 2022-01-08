@@ -1,0 +1,938 @@
+/* add exercise main container start */
+.add-exercise-main-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+/* add exercise main container end */
+
+/* menu-container start */
+.menu-container{
+    width: 20%;
+    height: 100%;
+}
+/* menu-container end */
+
+
+/* add-exercise-sub-container start */
+.add-exercise-sub-container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background: #F9F9F9 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+/* add-exercise-sub-container end */
+
+/* add exercise main container end */
+
+/* add-new-exercise-header start */
+.add-new-exercise-header{
+    margin-top: 2%;
+    margin-left: 3%;
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+   font-weight: bold;
+   color: #646D82;
+   text-transform: uppercase;
+   opacity: 1;
+}
+/* add-new-exercise-header end */
+
+/* page-path-header start */
+.page-path-header{
+    margin-top: 1%;
+    margin-left: 3%;
+   
+    text-align: left;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0px;
+    color: #0088FF;
+    opacity: 1;
+}
+/* page-path-header end */
+
+/* add-exercise-input-container start */
+.add-exercise-input-container{
+    margin-bottom: 50px;
+    position: relative;
+    margin-top: 2%;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 90%;
+    height: 98vh;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 11px #00000029;
+    border-radius: 25px;
+    opacity: 1;
+}
+/* add-exercise-input-container end */
+
+
+/*input-main-container start */
+.input-main-container{
+   margin-top: 5%;
+    width: 45%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+/*input-main-container end */
+
+/*image-upload-container start */
+.image-upload-container{
+    
+    margin-top: 5%;
+    width: 45%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+/*image-upload-container end */
+
+
+/*image-upload-container a start */
+.image-upload-container a{
+    cursor: pointer;
+    color: #0099FF
+}
+/*image-upload-container a end */
+
+/*drag-drop-image-header start */
+.drag-drop-image-header{
+    width: 100%;
+font-size: 16px;
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+letter-spacing: 0px;
+opacity: 1;
+}
+/*drag-drop-image-header end */
+
+/*drag-drop-image-upload start */
+.drag-drop-image-upload{
+    width: 25vw;
+    height: 20vh;
+}
+/*drag-drop-image-upload end */
+
+/*drag-drop-image start */
+.drag-drop-image{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+/*drag-drop-image end */
+
+/*drag-drop-image start */
+.title-input-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+/*drag-drop-image end */
+
+/*title-header start */
+.title-header{
+    width: 30%;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin-right: 2%;
+}
+/*title-header end */
+
+/*title-input-for-text start */
+.title-input-for-text{
+    width: 70%;
+    
+}
+/*title-input-for-text end */
+
+/*title-input start */
+.title-input{
+    width: 100%;
+    height: 30px;
+    outline:none;
+    border:none;
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: black;
+    background-color: #FFFFFF;
+    
+}
+/*title-input end */
+
+/*instruction-text-area start */
+.instruction-text-area{
+width: 100%;
+height: 8vh;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #707070;
+opacity: 1;
+}
+/*instruction-text-area end */
+
+/*calorie-burn-input start */
+.calorie-burn-input{
+    width: 70%;
+    height: 30px;
+    outline:none;
+    border:none;
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: black;
+   
+}
+/*calorie-burn-input end */
+
+/*reps-and-time-input start */
+.reps-and-time-input{
+    width: 70%;
+    height: 30px;
+    outline:none;
+    border:none;
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: black;
+   
+}
+.reps-and-time-input-unit{
+    margin-left: 5%;
+    width: 20%;
+    height: 30px;
+    outline:none;
+    border:none;
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: black;
+   
+}
+.thumbail-container{
+    width: 10vw;
+    height: 10vh;
+    background: #EBEBEB 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    color: white;
+}
+
+.close-save-button-container{
+    
+    position: absolute;
+    left: 40%;
+    bottom: 5%;
+   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.close-button-container{
+    width: 10vw;
+    height: 5vh;
+    background: #A7A7A7 0% 0% no-repeat padding-box;
+    border-radius: 32px;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.close-header{
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.save-button-container{
+    margin-left: 5%;
+    width: 10vw;
+    height: 5vh;
+    background:  #1D8472 0% 0% no-repeat padding-box;
+    border-radius: 32px;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.save-header{
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+
+@media only screen and (max-width: 1100px)  {
+    .add-new-exercise-header{
+        font-size: 20px;
+    }
+    
+    .page-path-header{
+       
+        font-size: 14px;
+    }
+    
+    .add-exercise-input-container{
+        width: 90%;
+        height: 75vh;
+     }
+    
+    
+    .image-upload-container{
+        
+        width: 45%;
+        height: 22vh;
+     }
+    
+    
+    
+    .drag-drop-image-header{
+        width: 97%;
+        margin-top: 4%;
+    font-size: 16px;
+    }
+    
+    .drag-drop-image-upload{
+        width: 25vw;
+        height: 20vh;
+    }
+    
+    .drag-drop-image{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    
+    .input-main-container{
+         width: 40%;
+        } 
+        
+    .title-header{
+        width: 30%;
+        margin-right: 10%;
+        font-size: 16px;
+
+        }
+    
+    .title-input-for-text{
+        width: 55%;
+        
+    }
+
+
+    .calorie-burn-input{
+        width: 55%;
+       
+    }
+    
+    .reps-and-time-input{
+        width: 55%;
+       
+    }
+    .reps-and-time-input-unit{
+        margin-left: 5%;
+        width: 35%;
+       
+    }
+    .thumbail-container{
+        width: 9vw;
+        height: 9vh;
+      }
+    
+    
+    .close-button-container{
+        width: 9vw;
+        height: 5vh;
+    }
+    
+    .close-header{
+        font-size: 18px;
+    }
+    
+    .save-button-container{
+        width: 9vw;
+        height: 5vh;
+    }
+    
+    .save-header{
+        font-size: 18px;
+    }
+    
+}
+
+     @media only screen and (max-width: 900px)  {
+    .add-new-exercise-header{
+        font-size: 18px;
+    }
+    
+    .page-path-header{
+       
+        font-size: 13px;
+    }
+    
+    .add-exercise-input-container{
+        width: 90%;
+        height: 75vh;
+     }
+    
+    
+    .image-upload-container{
+        
+        width: 45%;
+        height: 22vh;
+     }
+    
+    
+    
+    .drag-drop-image-header{
+        width: 95%;
+        margin-top: 5%;
+    font-size: 14px;
+    }
+    
+    .drag-drop-image-upload{
+        width: 25vw;
+        height: 20vh;
+    }
+    
+    .drag-drop-image{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    
+    .input-main-container{
+         width: 40%;
+        } 
+        
+    .title-header{
+        width: 30%;
+        margin-right: 12%;
+        font-size: 15px;
+
+        }
+    
+    .title-input-for-text{
+        width: 55%;
+        
+    }
+
+
+    .calorie-burn-input{
+        width: 55%;
+       
+    }
+    
+    .reps-and-time-input{
+        width: 55%;
+       
+    }
+    .reps-and-time-input-unit{
+        margin-left: 5%;
+        width: 35%;
+       
+    }
+    .thumbail-container{
+        width: 9vw;
+        height: 9vh;
+      }
+    
+    
+    .close-button-container{
+        width: 9vw;
+        height: 5vh;
+    }
+    
+    .close-header{
+        font-size: 16px;
+    }
+    
+    .save-button-container{
+        width: 9vw;
+        height: 5vh;
+    }
+    
+    .save-header{
+        font-size: 16px;
+    }
+    
+} 
+
+
+  @media only screen and (max-width: 850px)  {
+    .add-new-exercise-header{
+        font-size: 18px;
+    }
+    
+    .page-path-header{
+        font-size: 12px;
+    }
+   
+    .add-exercise-input-container{
+        width: 90%;
+        height: 70vh;
+     }
+    
+    
+    .image-upload-container{
+        
+        width: 45%;
+        height: 20vh;
+     }
+    
+    
+     .drag-drop-image-header{
+         width: 90%;
+        margin-top: 8%;
+    font-size: 14px;
+    }
+    
+    
+    
+    .drag-drop-image-upload{
+        width: 25vw;
+        height: 20vh;
+    }
+    
+    
+    
+    .input-main-container{
+         width: 40%;
+        } 
+        
+    .title-header{
+        width: 25%;
+        margin-right: 15%;
+        font-size: 15px;
+
+        }
+    
+    .title-input-for-text{
+        width: 50%;
+        
+    }
+
+
+    .calorie-burn-input{
+        width: 45%;
+       
+    }
+    
+    .reps-and-time-input{
+        width: 45%;
+       
+    }
+    .reps-and-time-input-unit{
+        margin-left: 5%;
+        width: 42%;
+       
+    }
+    .thumbail-container{
+        width: 9vw;
+        height: 9vh;
+      }
+    
+    
+    .close-button-container{
+        width: 9vw;
+        height: 5vh;
+    }
+    .close-header{
+        font-size: 16px;
+    }
+    
+    
+    
+    .save-header{
+        font-size: 16px;
+    }
+    
+    
+    .save-button-container{
+        width: 9vw;
+        height: 5vh;
+    }
+    
+} 
+
+@media only screen and (max-width: 750px)  {
+    
+    .add-new-exercise-header{
+        font-size: 18px;
+    }
+    
+    .page-path-header{
+       margin-top: 1.5%;
+        font-size: 12px;
+    }
+   
+    .add-exercise-input-container{
+         width: 90%;
+        height: 80vh;
+        flex-direction: column;
+        align-items: center;
+     }
+    
+    
+    .image-upload-container{
+        
+        width: 80%;
+        height: 20vh;
+        margin-bottom: 15%;
+     }
+    
+    
+     .drag-drop-image-header{
+        margin-top: 5%;
+    font-size: 14px;
+    }
+    
+    
+    
+    .drag-drop-image-upload{
+        width: 25vw;
+        height: 20vh;
+    }
+    
+    
+    
+    .input-main-container{
+         width: 80%;
+        } 
+
+    .title-input-container{
+    margin-top: 2%;   
+    }
+        
+    .title-header{
+        width: 25%;
+        margin-right: 18%;
+        font-size: 15px;
+
+        }
+    
+    .title-input-for-text{
+        width: 50%;
+        
+    }
+
+
+    .calorie-burn-input{
+        width: 50%;
+       
+    }
+    
+    .reps-and-time-input{
+        width: 50%;
+       
+    }
+    .reps-and-time-input-unit{
+        margin-left: 5%;
+        width: 35%;
+       
+    }
+    .thumbail-container{
+        width: 9vw;
+        height: 9vh;
+      }
+    
+    
+    .close-button-container{
+        width: 9vw;
+        height: 5vh;
+    }
+    .close-header{
+        font-size: 16px;
+    }
+    
+    
+    
+    .save-header{
+        font-size: 16px;
+    }
+    .close-save-button-container{
+        bottom: 2%;
+    }
+    
+    .save-button-container{
+        width: 9vw;
+        height: 5vh;
+    }
+    
+} 
+
+@media only screen and (max-width: 650px)  {
+
+    .menu-container{
+    display: none;
+    }
+
+    .add-exercise-main-container{
+        justify-content: center;
+    }
+    .add-exercise-sub-container{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        background: #F9F9F9 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
+    
+    .add-new-exercise-header{
+        font-size: 16px;
+    }
+    
+    .page-path-header{
+       
+        font-size: 12px;
+    }
+   
+    .add-exercise-input-container{
+         width: 90%;
+        height: 80vh;
+        flex-direction: column;
+        align-items: center;
+     }
+    
+    
+    .image-upload-container{
+        
+        width: 80%;
+        height: 20vh;
+        margin-bottom: 15%;
+     }
+    
+    
+     .drag-drop-image-header{
+        margin-top: 5%;
+    font-size: 12px;
+    }
+    
+    
+    
+    .drag-drop-image-upload{
+        width: 25vw;
+        height: 20vh;
+    }
+    
+    
+    
+    .input-main-container{
+         width: 80%;
+        } 
+
+    .title-input-container{
+    margin-top: 2%;   
+    }
+        
+    .title-header{
+        width: 25%;
+        margin-right: 18%;
+        font-size: 14px;
+
+        }
+    
+    .title-input-for-text{
+        width: 50%;
+        
+    }
+
+
+    .calorie-burn-input{
+        width: 50%;
+       
+    }
+    
+    .reps-and-time-input{
+        width: 50%;
+       
+    }
+    .reps-and-time-input-unit{
+        margin-left: 5%;
+        width: 35%;
+       
+    }
+    .thumbail-container{
+        width: 8vw;
+        height: 6vh;
+        font-size: 35px;
+      }
+      .close-save-button-container{
+    
+        left: 35%;
+       
+     }
+    
+    .close-button-container{
+        width: 12vw;
+        height: 4vh;
+    }
+    .close-header{
+        font-size: 14px;
+    }
+    
+    
+    
+    .save-header{
+        font-size: 14px;
+    }
+    .close-save-button-container{
+        bottom: 2%;
+    }
+    
+    .save-button-container{
+        width: 12vw;
+        height: 4vh;
+    }
+    
+} 
+
+@media only screen and (max-width: 550px)  {
+    
+    .add-new-exercise-header{
+        font-size: 16px;
+    }
+    
+    .page-path-header{
+       margin-top: 2%;
+        font-size: 12px;
+    }
+   
+    .add-exercise-input-container{
+         width: 90%;
+        height: 85vh;
+        flex-direction: column;
+        align-items: center;
+     }
+    
+    
+    .image-upload-container{
+        
+        width: 85%;
+        height: 20vh;
+        margin-bottom: 22%;
+     }
+    
+    
+     .drag-drop-image-header{
+         width: 95%;
+        margin-top: 5%;
+    font-size: 12px;
+    }
+    
+    
+    
+    .drag-drop-image-upload{
+        width: 50vw;
+        height: 20vh;
+    }
+    
+    
+    
+    .input-main-container{
+         width: 85%;
+        } 
+
+    .title-input-container{
+    margin-top: 2%;   
+    }
+        
+    .title-header{
+        width: 25%;
+        margin-right: 18%;
+        font-size: 14px;
+
+        }
+    
+    .title-input-for-text{
+        width: 52%;
+        
+    }
+
+
+    .calorie-burn-input{
+        width: 52%;
+       
+    }
+    
+    .reps-and-time-input{
+        width: 52%;
+       
+    }
+    .reps-and-time-input-unit{
+        margin-left: 5%;
+        width: 39%;
+       
+    }
+    .thumbail-container{
+        width: 9vw;
+        height: 6vh;
+        font-size: 30px;
+      }
+      .close-save-button-container{
+    
+        left: 30%;
+       
+     }
+    
+    .close-button-container{
+        width: 15vw;
+        height: 4vh;
+    }
+    .close-header{
+        font-size: 12px;
+    }
+    
+    
+    
+    .save-header{
+        font-size: 12px;
+    }
+    .close-save-button-container{
+        bottom: 2%;
+    }
+    
+    .save-button-container{
+        width: 15vw;
+        height: 4vh;
+    }
+    
+} 
