@@ -1,5 +1,44 @@
 import { jsx, css } from '@emotion/react'
+export const header=css`
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+div {
+  width: 20%;
+  margin-top: 15px;
+  font-size: 14px;
+  color: #676767;
+  font-weight: 500;
+}
+div span {
+  display: none;
+}
+img {
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+}
+select {
+  border: 0.5px solid #707070;
+  color: #676767;
+  font-size: 14px;
+  font-weight: 500;
+}
+input {
+  border: 0.5px solid #707070;
+  color: #676767;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 2px 0px;
+  width: 50px;
+  text-align: center;
+}
 
+@media screen and (max-width: 640px) {
+ display: none;
+}
+`
 export const add_workout_container = css`
     padding: 25px 30px;
     background-color: #f9f9f9;
