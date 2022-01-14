@@ -20,9 +20,9 @@ const Workout = () => {
         <React.Fragment>
             <Topbar />
             <div css={workout_container}>
-                <div css={main_card}>
-                    <div css={card}>
-                        <div css={top_section}>
+                <div id="main-card" >
+                    <div id="card">
+                        <div id="top_section">
                             <span></span>
                             <span css={input_wrapper}>
                                 <input type="text" placeholder="Jumping Jack" />
@@ -31,7 +31,7 @@ const Workout = () => {
                             <img src={Cross} alt="" />
                         </div>
 
-                        <div css={video_section}>
+                        <div id="video_section">
                             <img css={video} alt="" src="https://images.unsplash.com/photo-1546483875-ad9014c88eba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGZpdG5lc3N8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" />
                             <div css={info_container}>
                                 <div css={exercise_info}>

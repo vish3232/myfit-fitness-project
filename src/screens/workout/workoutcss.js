@@ -3,6 +3,48 @@ import { jsx, css } from '@emotion/react'
 export const workout_container=css`
     background-color: #f9f9f9;
     padding: 0px 30px;
+    
+    #main-card {
+      background: #ffffff 0% 0% no-repeat padding-box;
+      opacity: 0.98;
+      backdrop-filter: blur(37px);
+      -webkit-backdrop-filter: blur(37px);
+      display: flex;
+      justify-content: center;
+
+      #card{
+        width: 90%;
+        background: #ffffff 0% 0% no-repeat padding-box;
+        box-shadow: 0px 12px 11px #00000029;
+        border-radius: 25px;
+        margin-top: 70px;
+        margin-bottom: 70px;
+        
+        #top_section{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-top: 15px;
+          padding: 0px 25px;
+          @media screen and (max-width: 500px) {
+             padding: 10px 10px;
+             img {
+              height: 40px;
+            }
+            }
+            @media screen and (max-width: 400px) {
+          
+              img {
+                height: 40px;
+              }
+            }
+         
+        }
+      }
+
+
+    
+    }
     @media screen and (max-width: 770px) {
         padding: 20px 10px;
         background-color: #f9f9f9;
@@ -16,12 +58,6 @@ export const workout_container=css`
   `
   
   export const main_card=css`
-    background: #ffffff 0% 0% no-repeat padding-box;
-    opacity: 0.98;
-    backdrop-filter: blur(37px);
-    -webkit-backdrop-filter: blur(37px);
-    display: flex;
-    justify-content: center;
   `
   export const card=css`
     width: 90%;

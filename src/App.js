@@ -5,7 +5,7 @@ import Addworkout from './screens/addworkout/Addworkout'
 import EditWorkout from './screens/EditWorkout/EditWorkout'
 import Viewworkout from './screens/viewworkout/Viewworkout'
 import Workout from './screens/workout/Workout'
-
+import Myworkout from './screens/Myworkout/Myworkout.js'
 const App = () => {
   return (
     <BrowserRouter>
@@ -15,6 +15,8 @@ const App = () => {
         <Route path="/page3" element={<Addworkout />} />
         <Route path="/page4" element={<AddExercise />} />
         <Route path="/page5" element={<EditWorkout/>} />
+        <Route path="/page6" element={<Myworkout/>} />
+        
       </Routes>
     </BrowserRouter>
   )

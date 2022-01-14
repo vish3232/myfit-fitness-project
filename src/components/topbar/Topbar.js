@@ -38,14 +38,14 @@ const Topbar = () => {
                 </div>
             </div>
 
-            <div className="title">ADD Workout</div>
+            {/* <div className="title">ADD Workout</div>
             <div className="sub-nav">
                 <div>Home</div>
                 <div>{">"}</div>
                 <div>My Workout</div>
                 <div>{">"}</div>
                 <div>Add Workout</div>
-            </div>
+            </div> */}
         </div>
     )
 }
