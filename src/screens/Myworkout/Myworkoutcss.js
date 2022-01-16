@@ -16,7 +16,16 @@ height:100%;
      width:100%;
     #header-container{
         width:60%;
-       
+        @media screen and (max-width: 1100px) {
+            width:55%;
+        
+        }
+        @media screen and (max-width: 750px) {
+            width:50%;
+        }
+        @media screen and (max-width: 550px) {
+            width:65%;
+        }
         display:flex;
         flex-direction:column;
         align-items:flex-start;
@@ -31,6 +40,7 @@ height:100%;
             opacity: 1;
         }
         p{
+            margin-top:10px;
             text-align: left;
             font-family: 'Montserrat', sans-serif;
             font-size:14px;
@@ -46,8 +56,16 @@ height:100%;
         flex-direction:row;
         align-items:center;
         justify-content:space-between;
-      
-    
+        @media screen and (max-width: 1100px) {
+            width:35%;
+        
+        }
+        @media screen and (max-width: 750px) {
+            width:42%;
+        }
+        @media screen and (max-width: 550px) {
+            width:90px;
+        }
     #delete-button-container{
         display:flex;
         flex-direction:row;
@@ -59,8 +77,9 @@ height:100%;
         border-radius: 32px;
         opacity: 1;
         padding-left:5px;
+        
         span{
-            margin-left:10px;
+            margin-left:1%;
             text-align: left;
             font-size:12px;
             font-family: 'Montserrat', sans-serif;
@@ -68,6 +87,7 @@ height:100%;
             letter-spacing: 0px;
             color: #FFFFFF;
             opacity: 1;
+            
         }
          #delete-btn{
         background: #FFFFFF;
@@ -87,7 +107,7 @@ height:100%;
         opacity: 1;
         padding-left:5px;
         span{
-            margin-left:10px;
+            margin-left:1%;
             text-align: left;
             font-size:12px;
              font-family: 'Montserrat', sans-serif;
@@ -114,11 +134,14 @@ height:100%;
         width:90%;
         flex-direction:column;
         align-items:center;
-        justify-content:flex-start;
+        justify-content:space-between;
         background: #FFFFFF 0% 0% no-repeat padding-box;
         box-shadow: 0px 2px 11px #00000029;
         border-radius: 25px;
         opacity: 1;
+        @media screen and (max-width: 750px) {
+            width:95%;
+        }
         #search-bar-container{
             margin-top:2%;
             margin-bottom:2%;
@@ -170,11 +193,12 @@ height:100%;
             width:100%;
             flex-direction:row;
             align-items:center;
-            justify-content:flex-start;
+            justify-content:center;
+            
             div{
                 width:20%;
                 text-align: left;
-                font-size:12px;
+                font-size:2vmin;
                 font-family: 'Montserrat', sans-serif;
                 font-weight:600;
                 letter-spacing: 1.5px;
@@ -184,6 +208,9 @@ height:100%;
                 flex-direction-row;
                 align-items:center;
                 justify-content:flex-start;
+                @media screen and (max-width: 1000px) {
+                    width:17%;
+                }
             }
         }
         #list-of-workout{
@@ -194,18 +221,33 @@ height:100%;
             width:100%;
             flex-direction:row;
             align-items:center;
-            justify-content:flex-start;
+            justify-content:center;
             margin-bottom:20px;
 
-            img{
-                width:20%;
-                height:90px;
-                object-fit:contain;
-            }
+            
             span{
                 width:20%;
                 align-self:center;
                 justify-self:flex-start;
+                text-align: left;
+                font-size:2vmin;
+                font-family: 'Montserrat', sans-serif;
+                letter-spacing: 1.5px;
+                color: #040404;
+                @media screen and (max-width: 1000px) {
+                    width:17%;
+                }
+                img{
+                    margin-left:5px;
+                    width:100%;
+                    height:15vh;
+                    object-fit:contain;
+                    @media screen and (max-width: 1000px) {
+                        width:80%;
+                       
+                    }
+                }
+                
             }
             div{
                 width:20%;
