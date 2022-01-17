@@ -4,7 +4,7 @@ import Search from '../../assets/Search.png'
 import Bell from '../../assets/Bell.png'
 import Chat from '../../assets/Chat.png'
 
-const Topbar = () => {
+const Topbar = (props) => {
     return (
         <div className="top-bar-container">
             <div className="row">
@@ -37,15 +37,20 @@ const Topbar = () => {
                     </div>
                 </div>
             </div>
-
-            {/* <div className="title">ADD Workout</div>
+            {
+                props.header?
+                <>
+                <div className="title">ADD Workout</div>
             <div className="sub-nav">
                 <div>Home</div>
                 <div>{">"}</div>
                 <div>My Workout</div>
                 <div>{">"}</div>
                 <div>Add Workout</div>
-            </div> */}
+            </div>
+                </>:<></>
+            }
+              
         </div>
     )
 }
