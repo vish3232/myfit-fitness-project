@@ -40,7 +40,7 @@ const Topbar = (props) => {
             {
                 props.header?
                 <>
-                <div className="title">ADD Workout</div>
+                <div className="title">ADD WORKOUT</div>
             <div className="sub-nav">
                 <div>Home</div>
                 <div>{">"}</div>
@@ -50,7 +50,48 @@ const Topbar = (props) => {
             </div>
                 </>:<></>
             }
-              
+             {
+                props.header1?
+                <>
+                <div className="title">EDIT WORKOUT</div>
+            <div className="sub-nav">
+                <div>Home</div>
+                <div>{">"}</div>
+                <div>My Workout</div>
+                <div>{">"}</div>
+                <div>Edit Workout</div>
+            </div>
+                </>:<></>
+            } 
+            {
+                props.header3?
+                <>
+                <div className="title">ADD NEW EXCERCISE</div>
+            <div className="sub-nav">
+                <div>Home</div>
+                <div>{">"}</div>
+                <div>My Workout</div>
+                <div>{">"}</div>
+                <div>Add Workout</div>
+                <div>{">"}</div>
+                <div>Add Exercise</div>
+                
+             </div>
+                </>:<></>
+            }
+            {
+                props.header4?
+                <>
+                <div className="title">VIEW WORKOUT</div>
+            <div className="sub-nav">
+                <div>Home</div>
+                <div>{">"}</div>
+                <div>My Workout</div>
+                <div>{">"}</div>
+                <div>View Workout</div>
+            </div>
+                </>:<></>
+            }
         </div>
     )
 }

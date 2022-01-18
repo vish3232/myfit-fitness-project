@@ -8,6 +8,386 @@ export const  view_workout_main_container=css`
     justify-content: flex-start;
     width: 100%;
     background-color: #ffffff;
+
+    //workout_name_container start
+    #workout_name_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    }
+
+    //workout_name_header_container start
+    #workout_name_header_container{
+    width: 40% ;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    }
+
+    //workout_name_header start
+    #workout_name_header{
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: 0.02px;
+    color: #646D82;
+    font-family: 'Montserrat', sans-serif;
+    }  
+    
+    //workout_name_value_header start
+    #workout_name_value_header{
+    text-align: left;
+    font-size: 24px;
+
+    letter-spacing: 0.02px;
+    color: #229480;
+    font-family: 'Montserrat', sans-serif;
+    }
+
+    //edit_delete_icon_container start
+    #edit_delete_icon_container{
+    margin-top: 4%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 6%;
+    }
+
+    //edit_icon_container start
+    #edit_icon_container{
+    display: flex;
+    width: 45%;
+    height: 31px;
+   
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+
+    //edit_icon start
+    #edit_icon{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    }
+
+    //delete_icon_container start
+    #delete_icon_container{
+       
+    display: flex;
+    width: 45%;
+    height: 31px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+
+    //delete_icon start
+    #delete_icon{
+    height:80%;
+    width: 100%;
+    object-fit: contain;
+    }
+
+    //workout_list_sub_container start
+    #workout_list_sub_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 95%;
+    }
+
+    //workout_list_container start
+    #workout_list_container{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    }
+
+    //workout_list_item_container start
+    #workout_list_item_container{
+    padding-left: 2%;
+    padding-right: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    height: 8vh;
+    background: #229480 0% 0% no-repeat padding-box;
+box-shadow: 0px 2px 6px #00000029;
+border-radius: 8px;
+opacity: 1;
+}
+
+    //workout_list_item_container_name_header start
+    #workout_list_item_container_name_header{
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    }
+
+    //add_icon start
+    #add_icon{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    }
+
+    //list_item_open_container start
+    #list_item_open_container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 90%;
+    background-color: #ffffff;
+    padding: 2%;
+    }
+
+    //list_item_details_container start
+    #list_item_details_container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    padding:2% ;
+    }
+    //list_item_info_image_container start
+    #list_item_info_image_container{
+    width: 20%;
+    height: 120px;
+    display: flex;
+    }
+
+    //info_image start
+    #info_image{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    }
+
+    //info_content_container start
+    #info_content_container{
+    margin-left: 2%;
+    padding:1%;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: flex-start;
+    justify-content: space-between;
+    }
+
+    //info_all_details_header_container start
+    #info_all_details_header_container{
+        margin-top: 2%;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        @media screen and (max-width: 800px) {
+        margin-top: 2%;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start;
+        justify-content: space-between;
+       
+    }
+    }
+
+    //reps_header_value_container start
+    #reps_header_value_container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    @media screen and (max-width: 800px) {
+
+    width: 100%;
+    flex-direction: row;
+    }
+    }
+
+    //bottom_button_container start
+    #bottom_button_container{
+    margin-top: 2%;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2%;
+    }
+
+    //attached_container start
+    #attached_container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    }
+
+    //video_svg start
+    #video_svg{
+    margin-left: 5%;
+    margin-top: 2%;
+    }
+
+    //total_calories_burn_button start
+    #total_calories_burn_button{
+        width: 30%;
+        height: 7vh;
+        display: flex;
+        background: #313332 0% 0% no-repeat padding-box;
+    border-radius: 32px;
+    opacity: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    @media screen and (max-width: 950px){
+    
+        width: 45%;
+    }
+    @media screen and (max-width: 700px){
+        width: 55%;
+    }
+    @media screen and (max-width: 700px){
+        width: 65%;
+    }
+    @media screen and (max-width: 500px){
+        width: 70%;
+    }
+    }
+
+    //save_btn_container start
+    #save_btn_container{
+        margin-left: 1.5%;
+        width: 10vw;
+        height: 7vh;
+        background: #1D8472 0% 0% no-repeat padding-box;
+        border-radius: 32px;
+        opacity: 1;
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    @media screen and (max-width: 950px){
+        width: 11%;
+    }
+    @media screen and (max-width: 700px){
+        width: 14%;
+    }
+    @media screen and (max-width: 700px){
+        width: 20%;
+    }
+    @media screen and (max-width: 500px){
+        width: 20%;
+        font-size: 14px;
+    }
+
+    }
+
+    //allcontent_header start
+    #allcontent_header{
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0px;
+    color: #229480;
+    opacity: 1;
+    }
+
+    //allcontent_header_title start
+    #allcontent_header_title{
+    width: 100%;
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0px;
+    color: #040404;
+    opacity: 1;
+    }
+
+    //allcontent_header_value start
+    #allcontent_header_value{
+    width: 100%;
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0px;
+color: #040404;
+opacity: 1;
+    }
+
+    //total_calories_burn_button_header start
+    #total_calories_burn_button_header{
+    
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    @media screen and (max-width: 500px){
+    font-size: 12px;
+    }
+    }
+
+    //total_calories_burn_button_value start
+    #total_calories_burn_button_value{
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    @media screen and (max-width: 500px){
+    font-size: 12px;
+    }
+    }
+
+    //instruction_header start
+    #instruction_header{
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0px;
+    color: #229480;
+    opacity: 1;
+    }
+
+    //sub_title_instruction_header start
+    #sub_title_instruction_header{
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0px;
+    color: #040404;
+    opacity: 1;
+    }
     `
 /* view-workout-main-container end */
 

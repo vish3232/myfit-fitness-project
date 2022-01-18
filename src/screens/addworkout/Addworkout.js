@@ -4,7 +4,7 @@ import Topbar from '../../components/topbar/Topbar'
 import Eye from '../../assets/eye.png'
 //import './Addworkout.id'
 import Exercise from '../../assets/exercise9.png'
-import {add_workout_container,card,row,column,row_container,bar_container,workout_info,workout_info_row,add_exercise_button,bar_container_rest,rounds,border,bottom_section,button1,button2,button3,header} from './Addworkoutcss'
+import {add_workout_container} from './Addworkoutcss'
 
 
 const Addworkout = () => {

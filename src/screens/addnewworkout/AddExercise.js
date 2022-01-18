@@ -31,7 +31,7 @@ export default class AddExercise extends Component {
     render() {
         return (
             <React.Fragment>
-        <Topbar title="ADD NEW EXCERCISE" path1="Home" path2="My Workout" path3="Add Workout" path4="Add Exercise" />
+        <Topbar header3={true} />
           
             <div css={add_exercise_main_container} >
             
