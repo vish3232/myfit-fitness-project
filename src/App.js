@@ -7,6 +7,7 @@ import Viewworkout from './screens/viewworkout/Viewworkout'
 import Workout from './screens/workout/Workout'
 import Myworkout from './screens/Myworkout/Myworkout.js'
 import Deleteworkout from './screens/Deleteworkout/Deleteworkout'
+import ViewIndividualWorkout from './screens/ViewIndividualWorkout/ViewIndividualWorkout'
 const App = () => {
   return (
     <BrowserRouter>
@@ -18,6 +19,7 @@ const App = () => {
         <Route path="/page5" element={<EditWorkout/>} />
         <Route path="/page6" element={<Myworkout/>} />
         <Route path="/deleteworkout" element={<Deleteworkout/>} />
+        <Route path="/page7" element={<ViewIndividualWorkout/>} />
         
       </Routes>
     </BrowserRouter>

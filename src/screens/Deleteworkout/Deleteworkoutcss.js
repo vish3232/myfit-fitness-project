@@ -183,7 +183,7 @@ height:100%;
             justify-content:center;
             
             div{
-                width:20%;
+                width:15%;
                 text-align: left;
                 font-size:2vmin;
                 font-family: 'Montserrat', sans-serif;
@@ -196,7 +196,28 @@ height:100%;
                 align-items:center;
                 justify-content:flex-start;
                 @media screen and (max-width: 1000px) {
-                    width:17%;
+                    width:15%;
+                }
+            }
+
+            div:nth-child(1){
+                width:25%;
+                text-align: left;
+                font-size:2vmin;
+                font-family: 'Montserrat', sans-serif;
+                font-weight:600;
+                letter-spacing: 1.5px;
+                color: #646464;
+                opacity: 1;
+                display:flex;
+                flex-direction-row;
+                align-items:center;
+                justify-content:flex-start;
+                @media screen and (max-width: 1000px) {
+                    width:25%;
+                }
+                #checkbox{
+                    margin-left:16%;
                 }
             }
         }
@@ -217,18 +238,54 @@ height:100%;
             justify-content:center;
             margin-bottom:20px;
 
-            
-            span{
-                width:20%;
+            span:nth-child(1){
+                width:25%;
+                display:flex;
+                flex-direction:row;
                 align-self:center;
+                align-items:center;
                 justify-self:flex-start;
                 text-align: left;
                 font-size:2vmin;
                 font-family: 'Montserrat', sans-serif;
                 letter-spacing: 1.5px;
                 color: #040404;
+                #checkbox{
+                    margin-left:18%;
+                }
                 @media screen and (max-width: 1000px) {
-                    width:17%;
+                    width:25%;
+                }
+                img{
+                    margin-left:5px;
+                    width:100%;
+                    height:15vh;
+                    object-fit:contain;
+                    @media screen and (max-width: 1000px) {
+                        width:80%;
+                       
+                    }
+                }
+                
+            }
+
+            span{
+                width:15%;
+                display:flex;
+                flex-direction:row;
+                align-self:center;
+                align-items:center;
+                justify-self:flex-start;
+                text-align: left;
+                font-size:2vmin;
+                font-family: 'Montserrat', sans-serif;
+                letter-spacing: 1.5px;
+                color: #040404;
+                #checkbox{
+                    margin-left:18%;
+                }
+                @media screen and (max-width: 1000px) {
+                    width:15%;
                 }
                 img{
                     margin-left:5px;
@@ -243,7 +300,7 @@ height:100%;
                 
             }
             div{
-                width:20%;
+                width:15%;
                 display:flex;
                 flex-direction:row;
                 justify-content:flex-start;

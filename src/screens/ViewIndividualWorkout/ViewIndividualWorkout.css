@@ -1,0 +1,125 @@
+.popup-container {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.popup-container .card {
+   padding: 30px;
+   background-color: #fff;
+   width: calc(100vw - 35vw);
+   display: flex;
+   flex-direction: column;
+}
+
+.popup-container .card .close-button {
+    height: 40px;
+    width: 40px;
+    background-image: url('../../assets/close.png');
+    background-size: contain;
+    margin-bottom: 10px;
+    align-self: flex-end;
+}
+
+.popup-container .card img {
+    width: 100%;
+    height: auto;
+}
+
+.popup-container .card h1 {
+    font-size: 58px;
+    color: #676767;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.popup-container .card .column {
+   margin: 10px 0px;
+}
+
+.popup-container .card span {
+    color: #676767;
+    font-size: 25px;
+}
+
+.popup-container .card strong {
+    font-size: 25px;
+    color: #676767;
+    margin-left: 20px;
+}
+
+.popup-container .card h5 {
+    color: #676767;
+   font-size: 20px;
+   font-weight: 600;
+   margin: 10px 0px;
+}
+
+.popup-container .card p {
+    color: #676767;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 850px) {
+    .popup-container .card {
+        width: calc(100vw - 20vw);
+     }
+
+    .popup-container .card h1 {
+        font-size: 38px;
+    }
+
+    .popup-container .card span {
+        font-size: 22px;
+    }
+    
+    .popup-container .card strong {
+        font-size: 22px;
+    }
+    
+    .popup-container .card h5 {
+       font-size: 18px;
+    }
+
+    .popup-container .card p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .popup-container .card {
+        padding: 20px;
+     }
+
+    .popup-container .card {
+        width: calc(100vw - 10vw);
+     }
+
+    .popup-container .card h1 {
+        font-size: 22px;
+    }
+
+    .popup-container .card span {
+        font-size: 16px;
+    }
+    
+    .popup-container .card strong {
+        font-size: 16px;
+    }
+    
+    .popup-container .card h5 {
+       font-size: 15px;
+    }
+
+    .popup-container .card p {
+        font-size: 14px;
+    }
+
+    .popup-container .card .close-button {
+        height: 25px;
+        width: 25px;
+    }
+    
+}
