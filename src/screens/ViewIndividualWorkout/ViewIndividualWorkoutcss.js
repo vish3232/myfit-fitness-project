@@ -7,7 +7,6 @@ export const popup_container=css`
     align-items: center;
     padding: 20px;
 
-
     #card {
         padding: 30px;
         background-color: #fff;

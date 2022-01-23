@@ -4,6 +4,7 @@ import React from 'react'
 import Workout from '../../assets/workoutvideo.png'
 import {popup_container} from './ViewIndividualWorkoutcss'
 const ViewIndividualWorkout = () => {
+    
     return <div css={popup_container}>
         <div id='card'>
             <div id='close-button' />

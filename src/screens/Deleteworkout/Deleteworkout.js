@@ -15,7 +15,7 @@ const Deleteworkout=()=>{
                         My Workout
                         </span>
                         <p>
-                        {"Home > My Workout > List of Workout"}
+                        {"Home > My Workout > Delete Workout"}
                         </p>
                 </div>
                 
