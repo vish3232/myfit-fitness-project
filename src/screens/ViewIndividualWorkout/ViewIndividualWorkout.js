@@ -1,20 +1,21 @@
+/** @jsxImportSource @emotion/react */
+
 import React from 'react'
 import Workout from '../../assets/workoutvideo.png'
-import './ViewIndividualWorkout.css'
-
+import {popup_container} from './ViewIndividualWorkoutcss'
 const ViewIndividualWorkout = () => {
-    return <div className="popup-container">
-        <div className='card'>
-            <div className='close-button' />
+    return <div css={popup_container}>
+        <div id='card'>
+            <div id='close-button' />
             <img src={Workout} alt="" />
             <h1>Jumping Jack</h1>
 
-            <div className='column'>
+            <div id='column'>
                 <span>Reps</span>
                 <strong>05</strong>
             </div>
 
-            <div className='column'>
+            <div id='column'>
                 <span>Calorie Burn</span>
                 <strong>30 Cal</strong>
             </div>
