@@ -6,8 +6,7 @@ export const FitnessReadMainContainer=css`
     width:100%;
     align-items:center;
     justifyContent:flex-start;
-    background-color:#FFFFFF;
-
+    
     #fitness-read-header-image-container{
         margin-top:2%;
         display:flex;
@@ -16,7 +15,12 @@ export const FitnessReadMainContainer=css`
         align-items:flex-start;
         justify-content:space-between;
         padding:2%;
-
+        @media screen and (max-width: 600px) {
+            flex-direction:column;
+            align-items:center;
+       
+       
+        }
         
 
     }
@@ -27,7 +31,11 @@ export const FitnessReadMainContainer=css`
         flex-direction:column;
         align-items:flex-start;
         justify-content:flex-start;
-
+        @media screen and (max-width: 600px) {
+            width:80%;
+       
+        }
+        
         span{
             text-align: left;
             letter-spacing: 0px;
@@ -35,7 +43,31 @@ export const FitnessReadMainContainer=css`
             opacity: 1;
             font-family: 'Montserrat', sans-serif;
             font-size:40px;
-        
+            @media screen and (max-width: 800px) {
+                font-size:32px;
+             
+            }
+            @media screen and (max-width: 600px) {
+                font-size:30px;
+             
+            }
+            b{
+                text-align: left;
+                letter-spacing: 0px;
+                color: #000000;
+                opacity: 1;
+                font-family: 'Montserrat', sans-serif;
+                font-size:40px;
+                @media screen and (max-width: 800px) {
+                    font-size:32px;
+                 
+                }
+                @media screen and (max-width: 600px) {
+                    font-size:30px;
+                 
+                }
+               
+            }
         }
 
         p{
@@ -46,7 +78,7 @@ export const FitnessReadMainContainer=css`
             opacity: 1;
             font-family: 'Montserrat', sans-serif;
             font-size:16px;
-        
+            
         }
     }
 
@@ -56,6 +88,10 @@ export const FitnessReadMainContainer=css`
         flex-direction:column;
         align-items:center;
         justify-content:center;
+        @media screen and (max-width: 600px) {
+            width:80%;
+       
+        }
         img{
             width:90%;
             height:90%;
@@ -84,6 +120,7 @@ export const FitnessReadMainContainer=css`
         flex-direction:column;
         align-tems:flex-start;
         justify-content:flex-start;
+        
         img{
             width:100%;
             height:100%;
@@ -102,9 +139,21 @@ export const FitnessReadMainContainer=css`
             padding:2%;
             display:flex;
             flex-direction:column;
-            justify-content:flex-start;
+            justify-content:space-between;
             align-items:flex-start;
-
+            height:120px;
+            @media screen and (max-width: 1050px) {
+                top:70%;
+                height:100px;
+            }
+            @media screen and (max-width: 850px) {
+                top:60%;
+                height:110px;
+            }
+            @media screen and (max-width: 500px) {
+                top:75%;
+                height:80px;
+            }
             h4{
                 text-align: left;
                 font-size:16px;
@@ -112,6 +161,14 @@ export const FitnessReadMainContainer=css`
                 letter-spacing: 0px;
                 color: #000000;
                 opacity: 1;
+                @media screen and (max-width: 1050px) {
+                    font-size:12px;
+                
+                }
+                @media screen and (max-width: 850px) {
+                    font-size:10px;
+                
+                }
             }
 
             p{
@@ -121,11 +178,19 @@ export const FitnessReadMainContainer=css`
                 letter-spacing: 0px;
                 color: #656565;
                 opacity: 1;
+                @media screen and (max-width: 1050px) {
+                    font-size:8px;
                 
+                }
+                @media screen and (max-width: 850px) {
+                    font-size:8px;
+                
+                }
             }
             span{
                 width:100%;
-                display:flex;
+               
+                 display:flex;
                 flex-direction:row;
                 align-items:center;
                 justify-content:flex-start;
@@ -146,6 +211,10 @@ export const FitnessReadMainContainer=css`
                     color: #000000;
                     opacity: 1;
                     font-weight:bold;
+                    @media screen and (max-width: 850px) {
+                        font-size:8px;
+                    
+                    }
                 }
             }
         }

@@ -6,8 +6,7 @@ export const contact_us_main_container=css`
     width:100%;
     align-items:center;
     justifyContent:flex-start;
-    background-color:#FFFFFF;
-
+   
     #contact-us-container{
         display:flex;
         flex-direction:row;
@@ -15,6 +14,16 @@ export const contact_us_main_container=css`
         justify-content:space-evenly;
         width:100%;
         background-color:#FFFFFF;
+
+        @media screen and (max-width: 600px) {
+            display:flex;
+            flex-direction:column;
+            align-items:center;
+            justify-content:space-evenly;
+            width:100%;
+            background-color:#FFFFFF;
+    
+        }
 
     }
 
@@ -24,6 +33,11 @@ export const contact_us_main_container=css`
         flex-direction:column;
         align-items:center;
         justify-content:space-between;
+
+        @media screen and (max-width: 600px) {
+            width:80%;
+        
+        }
         
         h3{
             text-align: left;
@@ -52,7 +66,10 @@ export const contact_us_main_container=css`
         flex-direction:column;
         align-items:center;
         justify-content:center;
+        @media screen and (max-width: 600px) {
+            width:80%;
         
+        }
         img{
             width:90%;
             height:90%;
@@ -200,6 +217,10 @@ export const contact_us_main_container=css`
             align-items:flex-start;
             justify-content:space-evenly;
             padding:2%;
+            @media screen and (max-width: 600px) {
+                height:170px;
+           
+            }
             span{
                 width:100%;
                 display:flex;
@@ -209,6 +230,10 @@ export const contact_us_main_container=css`
 
                 #dropdown-icon{
                     font-size:40px;
+                    @media screen and (max-width: 600px) {
+                        font-size:30px;
+                    
+                    }
                 }
 
                 h1{
@@ -218,6 +243,11 @@ export const contact_us_main_container=css`
                     letter-spacing: 0px;
                     color: #000000;
                     opacity: 1;
+
+                    @media screen and (max-width: 600px) {
+                        font-size:16px;
+                    
+                    }
                 
                 }
 
@@ -232,7 +262,10 @@ export const contact_us_main_container=css`
                 letter-spacing: 0px;
                 color: #000000;
                 opacity: 1;
-             
+                @media screen and (max-width: 600px) {
+                    font-size:14px;
+                
+                }
             }
         }
     }

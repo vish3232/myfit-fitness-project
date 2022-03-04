@@ -6,10 +6,13 @@ import fitnessRead from '../../assets/fitness_read.png'
 import card1 from '../../assets/card1.png'
 import card2 from '../../assets/card2.png'
 import card3 from '../../assets/card3.png'
+import NavigationBar from '../../components/NavigationBar/NavigationBar'
+import Footer from '../../components/Footer/Footer'
 
 const FitnessRead=()=>{
     return(
         <div css={FitnessReadMainContainer} >
+            <NavigationBar/>
             <div id="fitness-read-header-image-container" >
                 <div id="fitness-read-header-container" >
                     <span>FITNESS <b>READS</b></span>
@@ -93,6 +96,7 @@ const FitnessRead=()=>{
                 </div>
                 
             </div>
+            <Footer/>
         </div>
     )
 }

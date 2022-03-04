@@ -3,9 +3,14 @@ import React from "react";
 import {blog_main_container} from './Blogcss'
 import profile from '../../assets/Ellipse41.png'
 import blogimage from '../../assets/Mask_Group_59.png'
+import Appstote from '../../assets/Group92.png'
+import Playstore from '../../assets/Group90.png'
+import NavigationBar from "../../components/NavigationBar/NavigationBar";
+import Footer from "../../components/Footer/Footer";
 const Blog=(props)=>{
     return(
         <div css={blog_main_container} >
+            <NavigationBar/>
             <div id="blog-header-container" >
                 <span>What is keto diet?</span>
                 <p>Home/Blog</p>
@@ -24,8 +29,18 @@ const Blog=(props)=>{
             </div>
 
             <div id="download-app-container" >
-                hello
+                <div>
+                    <div id="download-header" >Download</div>
+                    <div id="App-header" >App</div>
+                </div>
+                <span>Coaches and Users both can download and register to our app on android and ios mobile.</span>
+                <div>
+                    <img src={Appstote} />
+                    <img src={Playstore} />
+                </div>
             </div>
+
+            <Footer/>
             
         </div>
     )

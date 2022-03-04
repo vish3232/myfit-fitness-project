@@ -4,9 +4,12 @@ import React from 'react'
 import {contact_us_main_container} from './ContactUscss.js'
 import contactus from '../../assets/contactus.png'
 import { Button,Icon } from 'semantic-ui-react'
+import NavigationBar from '../../components/NavigationBar/NavigationBar.js'
+import Footer from '../../components/Footer/Footer.js'
 const ContactUs=()=>{
     return(
         <div css={contact_us_main_container} >
+            <NavigationBar/>
             <div id="contact-us-container" >
                 <div id="contact-us-form" >
                     <h3>WE CARE ABOUT YOU</h3>
@@ -111,7 +114,7 @@ const ContactUs=()=>{
 
                 
             </div>
-
+            <Footer/>
 
         </div>
     )
