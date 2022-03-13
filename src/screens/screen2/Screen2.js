@@ -1,5 +1,7 @@
+/** @jsxImportSource @emotion/react */
+
 import React from 'react'
-import './Screen2.css'
+import {screen2} from './Screen2css'
 import Footer from '../../components/Footer/Footer'
 import NavigationBar from '../../components/NavigationBar/NavigationBar'
 import StarRatings from 'react-star-ratings'
@@ -26,44 +28,44 @@ const Screen2 = () => {
     return (
         <div>
             <NavigationBar />
-            <section className='screen2'>
-                <div className='banner'>
+            <section css={screen2}>
+                <div id='banner'>
                     <h1>Yoga</h1>
                     <h6>Home / Our Services / Yoga</h6>
                 </div>
 
 
-                <section className='section1'>
-                    <div className='column1'>
+                <section id='section1'>
+                    <div id='column1'>
                         <h2>Explore Yoga Classes Online</h2>
                         <p>Expand your horizons as you learn more about yoga. Try these classes that teach about yoga for strength, how to stretch, and more. Whether you’re a beginner or a master, a dabbler or a pro, these yoga classes can help you improve your abilities and learn about flexibility, and more. You’ll have the chance to develop new skills to help you learn yoga essentials to further your abilities. Each online class is broken down into short lessons that include hands-on projects to complete and share.</p>
                         <button>
                             <span>Click Here For Free Trail</span>
                             <img src={RightArrow} alt="" />
                         </button>
-                        <img className='dot-image1' src={DotImage} alt="" />
-                        <img className='dot-image2' src={DotImage} alt="" />
+                        <img id='dot-image1' src={DotImage} alt="" />
+                        <img id='dot-image2' src={DotImage} alt="" />
                     </div>
-                    <div className='column2'>
-                        <div className='card'>
+                    <div id='column2'>
+                        <div id='card'>
                             <img src={Storm} alt="" />
                             <h4>REDUCE STRESS</h4>
                             <p>Stressed? You've come to the right place. Yoga can reduce stress and lower your blood pressure.</p>
                         </div>
 
-                        <div className='card'>
+                        <div id='card'>
                             <img src={Fight} alt="" />
                             <h4>INCREASE STRENGTH</h4>
                             <p>Yoga is a great way to improve your strength, balance and flexibility.</p>
                         </div>
 
-                        <div className='card'>
+                        <div id='card'>
                             <img src={Scale} alt="" />
                             <h4>LOSE WEIGHT</h4>
                             <p>Practicing yoga can boost your metabolism. Who knew?</p>
                         </div>
 
-                        <div className='card'>
+                        <div id='card'>
                             <img src={Thumbsup} alt="" />
                             <h4>FEEL BETTER</h4>
                             <p>Practicing yoga can lead to feeling happier and satisfied. And who doesn't want that???</p>
@@ -72,22 +74,22 @@ const Screen2 = () => {
                 </section>
 
 
-                <section className='section2'>
-                    <div className='card'>
+                <section id='section2'>
+                    <div id='card'>
                         <img src={Yoga} alt="" />
                         <div>
                             <h3>120 +</h3>
                             <h5>EXPERT TRAINERS</h5>
                         </div>
                     </div>
-                    <div className='card card-center'>
+                    <div id='card card-center'>
                         <img src={Yoga3} alt="" />
                         <div>
                             <h3>550 +</h3>
                             <h5>HAPPY CLIENTS</h5>
                         </div>
                     </div>
-                    <div className='card'>
+                    <div id='card'>
                         <img src={Yoga2} alt="" />
                         <div>
                             <h3>150 +</h3>
@@ -96,20 +98,20 @@ const Screen2 = () => {
                     </div>
                 </section>
 
-                <section className='section3'>
+                <section id='section3'>
                     <h2>Our <span>YOGA Trainer</span></h2>
                     <p>Our Esteemed coaches are Experts, Industry Rockstar's exited to share their experience, wisdom and right tool with you</p>
 
-                    <div className='grid'>
-                        <div className='card'>
-                            <div className='image-container'>
+                    <div id='grid'>
+                        <div id='card'>
+                            <div id='image-container'>
                                 <img src={Trainer1} alt="" />
-                                <div className='hover-card'>
+                                <div id='hover-card'>
                                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita</p>
                                     <button>Know More</button>
                                 </div>
                             </div>
-                            <div className='center'>
+                            <div id='center'>
                                 <h6>Anna Tran</h6>
                                 <StarRatings
                                     rating={4.25}
@@ -124,15 +126,15 @@ const Screen2 = () => {
                         </div>
 
 
-                        <div className='card'>
-                            <div className='image-container'>
+                        <div id='card'>
+                            <div id='image-container'>
                                 <img src={Trainer2} alt="" />
-                                <div className='hover-card'>
+                                <div id='hover-card'>
                                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita</p>
                                     <button>Know More</button>
                                 </div>
                             </div>
-                            <div className='center'>
+                            <div id='center'>
                                 <h6>Anna Tran</h6>
                                 <StarRatings
                                     rating={4.25}
@@ -147,15 +149,15 @@ const Screen2 = () => {
                         </div>
 
 
-                        <div className='card'>
-                            <div className='image-container'>
+                        <div id='card'>
+                            <div id='image-container'>
                                 <img src={Trainer3} alt="" />
-                                <div className='hover-card'>
+                                <div id='hover-card'>
                                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita</p>
                                     <button>Know More</button>
                                 </div>
                             </div>
-                            <div className='center'>
+                            <div id='center'>
                                 <h6>Anna Tran</h6>
                                 <StarRatings
                                     rating={4.25}
@@ -170,15 +172,15 @@ const Screen2 = () => {
                         </div>
 
 
-                        <div className='card'>
-                            <div className='image-container'>
+                        <div id='card'>
+                            <div id='image-container'>
                                 <img src={Trainer1} alt="" />
-                                <div className='hover-card'>
+                                <div id='hover-card'>
                                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita</p>
                                     <button>Know More</button>
                                 </div>
                             </div>
-                            <div className='center'>
+                            <div id='center'>
                                 <h6>Anna Tran</h6>
                                 <StarRatings
                                     rating={4.25}
@@ -193,15 +195,15 @@ const Screen2 = () => {
                         </div>
 
 
-                        <div className='card'>
-                            <div className='image-container'>
+                        <div id='card'>
+                            <div id='image-container'>
                                 <img src={Trainer2} alt="" />
-                                <div className='hover-card'>
+                                <div id='hover-card'>
                                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita</p>
                                     <button>Know More</button>
                                 </div>
                             </div>
-                            <div className='center'>
+                            <div id='center'>
                                 <h6>Anna Tran</h6>
                                 <StarRatings
                                     rating={4.25}
@@ -215,15 +217,15 @@ const Screen2 = () => {
                             <span>Yoga Teacher</span>
                         </div>
 
-                        <div className='card'>
-                            <div className='image-container'>
+                        <div id='card'>
+                            <div id='image-container'>
                                 <img src={Trainer3} alt="" />
-                                <div className='hover-card'>
+                                <div id='hover-card'>
                                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita</p>
                                     <button>Know More</button>
                                 </div>
                             </div>
-                            <div className='center'>
+                            <div id='center'>
                                 <h6>Anna Tran</h6>
                                 <StarRatings
                                     rating={4.25}
